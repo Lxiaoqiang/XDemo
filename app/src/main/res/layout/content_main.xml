@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_gray_bk">
+
+        <xdemo.xq.com.xdemo.view.ImageViewWithTextView
+            android:id="@+id/indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image_icon="@mipmap/ic_menu_home"
+            app:text="首页"
+            app:text_size="16sp"></xdemo.xq.com.xdemo.view.ImageViewWithTextView>
+
+        <xdemo.xq.com.xdemo.view.ImageViewWithTextView
+            android:id="@+id/indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image_icon="@mipmap/ic_menu_add"
+            app:text="课程"
+            app:text_size="16sp"></xdemo.xq.com.xdemo.view.ImageViewWithTextView>
+
+        <xdemo.xq.com.xdemo.view.ImageViewWithTextView
+            android:id="@+id/indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image_icon="@mipmap/ic_menu_allfriends"
+            app:text="消息"
+            app:text_size="16sp"></xdemo.xq.com.xdemo.view.ImageViewWithTextView>
+
+        <xdemo.xq.com.xdemo.view.ImageViewWithTextView
+            android:id="@+id/indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image_icon="@mipmap/ic_menu_emoticons"
+            app:text=" 我"
+            app:text_size="16sp"></xdemo.xq.com.xdemo.view.ImageViewWithTextView>
+    </LinearLayout>
+</LinearLayout>

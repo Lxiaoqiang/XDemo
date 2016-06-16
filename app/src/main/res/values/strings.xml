@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_delete_view">DeleteViewActivity</string>
+    <string name="title_activity_chioce">ChioceActivity</string>
+    <string name="title_activity_sliding">SlidingActivity</string>
+    <string name="title_activity_vcl">VCLActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
